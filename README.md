@@ -33,13 +33,13 @@
 In order to install Prefect, create a virtual environment:
 - `python -m venv venv_name`
 
-###Installing Prefect 2.0
+### Installing Prefect 2.0
 - `pip install prefect`
 - `pip install -U prefect` (OR if you have Prefect 1, upgrade to Prefect 2 using this command)
 
-###Running Prefect Dashboard
+### Running Prefect Dashboard
 - `prefect server start`
 
-###Running Python App for Prefect
+### Running Python App for Prefect
 (After Running prefect server, Navigate To Virtual Environment, and run python app.py)
 - `python my_workflow_script.py`
